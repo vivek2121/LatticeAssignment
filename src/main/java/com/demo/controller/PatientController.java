@@ -23,7 +23,7 @@ import com.demo.service.PatientServiceImpl;
 @RequestMapping("/patients")
 public class PatientController {
 
-	//pushing to git
+	
 	@Autowired
 	public PatientServiceImpl patientService;
 	

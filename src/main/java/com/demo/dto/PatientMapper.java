@@ -26,7 +26,7 @@ public class PatientMapper {
 	@JsonProperty(value = "patientPassword")
 	@Min(value = 8)
 	@Max(value = 15)
-//	@Pattern(regexp="^[a-zA-Z0-9]*")
+	@Pattern(regexp="^[a-zA-Z0-9]*")
 	private String patientPassword;
 	
 	@JsonProperty(value = "patientMobileNumber")
