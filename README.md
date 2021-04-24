@@ -29,6 +29,8 @@ it can validate it using only the “secret key” that was used to create it
 - When you successfully import that project just click on the project and run that project.
 - When your project is on running condition just go to your type http://localhost:8081/swagger-ui.html#/ in your browser, this will open the api 
 documentation for you.
+- fire the /savepatient request and give the necessary details (remove jwt from request body).
+- after successfull attempt ypu will get JWT Token as a response copy that token and that Token into swagger Authentication header whth the bearer.
 - Now you can easily check the API's and test them.
 
 
